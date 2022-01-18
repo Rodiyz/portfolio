@@ -3,13 +3,48 @@
 }
 
 html {
-  text-decoration: none;
+  font-size: 10px;
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5em;
 }
 
 a {
   text-decoration: none;
+  box-sizing: border-box;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .container {
   max-width: 1200px;
+}
+
+
+// header
+
+.header-nav {
+  max-width: 1200px;
+}
+
+.header-nav__menu {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.header-nav-menu__item {
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
 }
