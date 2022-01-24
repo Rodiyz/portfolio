@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/normalize8.0.1.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -16,8 +17,8 @@
   </head>
   <body>
     <header id="header" class="header">
-      <nav class="header-nav mx-auto d-flex justify-content-between align-items-center">
-        <a href="#">Malinkin Maxim</a>
+      <nav class="header-nav mx-auto d-flex justify-content-between align-items-center py-4">
+        <a class="header-nav__logo" href="#">Malinkin Maxim</a>
         <div class="header-nav-container">
           <ul class="header-nav__menu">
             <li class="header-nav-menu__item"><a href="">Home</a></li>
@@ -28,16 +29,19 @@
         </div>
       </nav>
     </header>
-    <section>
-      <div class="container">
-        <div class="container col-xxl-8 px-4 py-5">
-          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-              <img src="img/hammer.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-              <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-              <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+    <section class="main">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/hammer.svg" class="d-block mx-lg-auto img-fluid" alt="" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex flex-column">
+              <div class="pb-5">
+                <h1 class="display-5 fw-bold lh-1 mb-1">Hi, I'm Maxim</h1>
+                <h3 class="fw-bold mb-2">Frontend developer, Novosibirsk, Russia</h3>
+                <p class="lead">I'm not a wizard, I'm just learning...</p>
+              </div>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
@@ -47,5 +51,18 @@
         </div>
       </div>
     </section>
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="text-center">
+          <div class="flex gap-4 mb-6 justify-center">
+            <a href="#"><i class="bi bi-github"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-discord"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

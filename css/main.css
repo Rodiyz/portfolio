@@ -4,7 +4,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 body {
@@ -17,13 +17,19 @@ a {
   text-decoration: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: inherit;
 }
 a:hover {
   text-decoration: none;
+  color: inherit;
 }
 
 .header-nav {
   max-width: 1200px;
+}
+
+.header-nav__logo {
+  font-size: 1.5rem;
 }
 
 .header-nav__menu {
@@ -37,6 +43,7 @@ a:hover {
   -webkit-margin-end: 0px;
      -moz-margin-end: 0px;
           margin-inline-end: 0px;
+  font-size: 1.2rem;
 }
 
 .header-nav-menu__item {
@@ -46,8 +53,18 @@ a:hover {
   margin: 0;
   padding: 0;
   display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+.header-nav-menu__item a {
+  display: block;
+  width: 100%;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+.header-nav-menu__item a:hover {
+  background-color: #6DA49A;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 /*# sourceMappingURL=main.css.map */
