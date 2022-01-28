@@ -25,7 +25,7 @@ a:hover {
   color: inherit;
 }
 
-.header-nav {
+.container {
   max-width: 1200px;
 }
 
@@ -75,7 +75,6 @@ a:hover {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   font-size: 1.3rem;
-  padding-top: 60px;
 }
 
 .footer-link__icon {
@@ -96,6 +95,36 @@ a:hover {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
   font-size: 1rem;
+  line-height: 2rem;
+}
+
+.about-text {
+  font-size: 1.1rem;
+}
+
+.about-headline {
+  border-bottom: 2px solid #EF8062;
+}
+
+.main-btn-left {
+  color: #fff;
+  background-color: #366F90;
+  border-color: #366F90;
+}
+.main-btn-left:hover {
+  color: #fff;
+  background-color: #58A1C7;
+  border-color: #58A1C7;
+}
+
+.main-btn-right {
+  color: #B0B271;
+  border-color: #B0B271;
+}
+.main-btn-right:hover {
+  color: #fff;
+  background-color: #6DA49A;
+  border-color: #6DA49A;
 }
 
 /*# sourceMappingURL=main.css.map */
