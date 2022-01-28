@@ -111,6 +111,10 @@ a {
 }
 
 .main-btn-left {
+  display: block;
+  padding: 0.1rem 1.1rem;
+  border-radius: 0.3rem;
+  font-size: 1.25rem;
   color: #fff;
   background-color: #366F90;
   border-color: #366F90;
@@ -122,8 +126,12 @@ a {
 }
 
 .main-btn-right {
+  display: block;
+  padding: 0.1rem 1.1rem;
+  border: 1px solid #B0B271;
+  border-radius: 0.3rem;
+  font-size: 1.25rem;
   color: #B0B271;
-  border-color: #B0B271;
   &:hover {
     color: #fff;
     background-color: #6DA49A;
