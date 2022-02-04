@@ -135,4 +135,63 @@ a:hover {
   border-color: #6DA49A;
 }
 
+.contact-form {
+  font-size: 1.5rem;
+}
+
+.contact-button {
+  color: #fff;
+  background-color: #366F90;
+  border-color: #366F90;
+}
+.contact-button:hover {
+  color: #fff;
+  background-color: #58A1C7;
+  border-color: #58A1C7;
+}
+
+.resume-headline {
+  margin: auto 0;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.resume-headline-link {
+  display: block;
+  padding: 4px 3px;
+  border-radius: 4px;
+  background-color: #df0000;
+  color: white;
+}
+
+.resume-telegram {
+  font-size: 1.2rem;
+}
+
+.bi-telegram {
+  font-size: 1.5rem;
+}
+
+.resume-email {
+  font-size: 1.2rem;
+}
+
+.bi-envelope-fill {
+  font-size: 1.5rem;
+}
+
+.education-headline {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.experience-article {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.skills li {
+  font-size: 1.2rem;
+}
+
 /*# sourceMappingURL=main.css.map */

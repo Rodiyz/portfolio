@@ -19,7 +19,7 @@
   <body>
     <header id="header" class="header">
       <div class="container">
-        <nav class="header-nav d-flex justify-content-between align-items-center py-4">
+        <nav class="header-nav d-flex justify-content-between align-items-center py-4 mb-3">
           <a class="header-nav__logo" href="../index.html">Malinkin Maxim</a>
           <div class="header-nav-container">
             <ul class="header-nav__menu">
@@ -33,26 +33,48 @@
         </nav>
       </div>
     </header>
-    <section class="contact">
-      <div class="container py-4">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="">
-
+    <section class="contact py-4">
+      <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-start contact-form">
+          <div class="col-4 lh-1">
+            <h3 class="fw-bold mb-3"><span class="about-headline">My contact info</span></h3>
+            <p class="lead py-1"><span class="fw-bold">Telegram:</span> @arkand54ru</p>
+            <p class="lead py-1"><span class="fw-bold">E-mail:</span> malinkin54ru@gmail.com</p>
+            <div class="py-4 px-5">
+              <div class="flex gap-4 mb-6 justify-center">
+                <a href="#" class="footer-link__icon"><i class="bi bi-github"></i></a>
+                <a href="#" class="footer-link__icon"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="footer-link__icon"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="footer-link__icon"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="footer-link__icon"><i class="bi bi-discord"></i></a>
+              </div>
+            </div>
           </div>
-          <div class=""></div>
+          <div class="col-7 px-4">
+            <form class="" action="" method="post">
+              <div class="d-flex gap-4">
+                <div class="mb-3">
+                  <label for="name" class="form-label contact-form">Your Name</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label contact-form">Your Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label contact-form">Your Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="13" placeholder="How can I help?"></textarea>
+              </div>
+              <a class="btn btn-primary contact-button" href="#" role="button">Submit</a>
+            </form>
+          </div>
         </div>
       </div>
     </section>
     <footer id="footer" class="footer">
       <div class="container py-4">
         <div class="text-center">
-          <div class="flex gap-4 mb-6 justify-center">
-            <a href="#" class="footer-link__icon"><i class="bi bi-github"></i></a>
-            <a href="#" class="footer-link__icon"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="footer-link__icon"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="footer-link__icon"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="footer-link__icon"><i class="bi bi-discord"></i></a>
-          </div>
           <div class="footer-copy">
             <p>&copy Malinkin Maxim <spam class="footer-copy__date" id="footer-copy__date">0</spam></p>
           </div>
