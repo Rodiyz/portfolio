@@ -19,9 +19,11 @@
   <body>
     <header id="header" class="header">
       <div class="container">
-        <nav class="header-nav d-flex justify-content-between align-items-center py-4 pb-5">
+        <nav class="header-nav d-flex justify-content-between align-items-center py-sm-4 pb-sm-5">
           <a class="header-nav__logo" href="index.html">Malinkin Maxim</a>
-          <div class="header-nav-container">
+          <a href="#" id="open-menu" class="open-menu"><i class="bi bi-list"></i></a>
+          <a href="#" id="closed-menu" class="closed-menu"><i class="bi bi-x"></i></a>
+          <div id="header-nav-container" class="header-nav-container">
             <ul class="header-nav__menu">
               <li class="header-nav-menu__item"><a href="index.html">Home</a></li>
               <li class="header-nav-menu__item"><a href="html/about.html">About</a></li>
@@ -31,24 +33,33 @@
             </ul>
           </div>
         </nav>
+        <div id="header-mobile-container" class="header-mobile-container">
+          <ul class="header-nav__menu">
+            <li class="header-nav-menu__item"><a href="index.html">Home</a></li>
+            <li class="header-nav-menu__item"><a href="html/about.html">About</a></li>
+            <li class="header-nav-menu__item"><a href="html/work.html">Work</a></li>
+            <li class="header-nav-menu__item"><a href="html/resume.html">Resume</a></li>
+            <li class="header-nav-menu__item"><a href="html/contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <section class="main">
-      <div class="container col-xxl-9 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="container col-xxl-9 py-sm-5">
+        <div class="main-img row flex-lg-row-reverse align-items-center g-5 py-sm-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="img/hammer.svg" class="d-block mx-lg-auto img-fluid" alt="" width="700" height="500" loading="lazy">
           </div>
           <div class="col-lg-6">
             <div class="d-flex flex-column">
-              <div class="pb-5">
+              <div class="pb-mx-5">
                 <h1 class="display-5 fw-bold lh-1 mb-1">Hi, I'm Maxim</h1>
                 <h3 class="fw-bold mb-2">Frontend developer, Novosibirsk, Russia</h3>
                 <p class="lead">I'm not a wizard, I'm just learning...</p>
               </div>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a class="main-btn-left px-4 me-md-2" href="html/contact.html">Hire me</a>
-                <a class="main-btn-right px-4" href="html/work.html">View Work</a>
+              <div class="main-btn-container d-mx-grid gap-mx-2 d-md-flex justify-content-md-start">
+                <a class="main-btn-left px-sm-4 me-md-2" href="html/contact.html">Hire me</a>
+                <a class="main-btn-right px-sm-4" href="html/work.html">View Work</a>
               </div>
             </div>
           </div>
@@ -56,13 +67,13 @@
       </div>
     </section>
     <footer id="footer" class="footer">
-      <div class="container py-4 pt-5">
+      <div class="container py-mx-4 pt-mx-5">
         <div class="text-center pt-5">
           <div class="flex gap-4 mb-6 justify-center">
-            <a href="#" class="footer-link__icon"><i class="bi bi-github"></i></a>
-            <a href="#" class="footer-link__icon"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="footer-link__icon"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="footer-link__icon"><i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/Rodiyz" target="_blank" class="footer-link__icon"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/rodiyz/" target="_blank" class="footer-link__icon"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/Rodiyz" target="_blank" class="footer-link__icon"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/rodiyz/" target="_blank" class="footer-link__icon"><i class="bi bi-instagram"></i></a>
           </div>
           <div class="footer-copy">
             <p>&copy Malinkin Maxim <spam class="footer-copy__date" id="footer-copy__date">0</spam></p>
