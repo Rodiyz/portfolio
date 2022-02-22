@@ -244,7 +244,7 @@ a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 1rem 0 0.5rem 0;
+    padding: 1.8rem 0 0.5rem 0;
   }
 
   .main-btn-container {
@@ -255,9 +255,13 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .main-btn-left {
+    margin: 0 1rem;
   }
 }
 @media (min-width: 576px) {
