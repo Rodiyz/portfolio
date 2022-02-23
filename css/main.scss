@@ -260,6 +260,21 @@ a {
   .main-btn-left {
     margin: 0 1rem;
   }
+
+
+  //contact
+
+  .contact-form {
+    display: none;
+  }
+
+  .contact-mobile {
+    display: none;
+  }
+
+  .footer-mobile {
+    display: block;
+  }
 }
 
 @media (min-width: 576px) {
@@ -272,6 +287,10 @@ a {
   }
 
   .closed-menu {
+    display: none;
+  }
+
+  .footer-mobile {
     display: none;
   }
 }

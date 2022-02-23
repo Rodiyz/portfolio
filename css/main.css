@@ -263,6 +263,18 @@ a:hover {
   .main-btn-left {
     margin: 0 1rem;
   }
+
+  .contact-form {
+    display: none;
+  }
+
+  .contact-mobile {
+    display: none;
+  }
+
+  .footer-mobile {
+    display: block;
+  }
 }
 @media (min-width: 576px) {
   .header-mobile-container {
@@ -274,6 +286,10 @@ a:hover {
   }
 
   .closed-menu {
+    display: none;
+  }
+
+  .footer-mobile {
     display: none;
   }
 }

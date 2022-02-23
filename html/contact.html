@@ -21,6 +21,8 @@
       <div class="container">
         <nav class="header-nav d-flex justify-content-between align-items-center py-4 mb-3">
           <a class="header-nav__logo" href="../index.html">Malinkin Maxim</a>
+          <a href="#" id="open-menu" class="open-menu"><i class="bi bi-list"></i></a>
+          <a href="#" id="closed-menu" class="closed-menu"><i class="bi bi-x"></i></a>
           <div class="header-nav-container">
             <ul class="header-nav__menu">
               <li class="header-nav-menu__item"><a href="../index.html">Home</a></li>
@@ -31,16 +33,25 @@
             </ul>
           </div>
         </nav>
+        <div id="header-mobile-container" class="header-mobile-container">
+          <ul class="header-nav__menu">
+            <li class="header-nav-menu__item"><a href="../index.html">Home</a></li>
+            <li class="header-nav-menu__item"><a href="../html/about.html">About</a></li>
+            <li class="header-nav-menu__item"><a href="../html/work.html">Work</a></li>
+            <li class="header-nav-menu__item"><a href="../html/resume.html">Resume</a></li>
+            <li class="header-nav-menu__item"><a href="../html/contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <section class="contact py-4">
-      <div class="container py-5">
+      <div class="container py-mx-5">
         <div class="d-flex justify-content-between align-items-start contact-form">
-          <div class="col-4 lh-1">
+          <div class="col-mx-4 lh-1">
             <h3 class="fw-bold mb-3"><span class="about-headline">My contact info</span></h3>
             <p class="lead py-1"><span class="fw-bold">Telegram:</span> @arkand54ru</p>
             <p class="lead py-1"><span class="fw-bold">E-mail:</span> malinkin54ru@gmail.com</p>
-            <div class="py-4 px-5">
+            <div class="contact-mobile py-4 px-5">
               <div class="flex gap-4 mb-6 justify-center">
                 <a href="https://github.com/Rodiyz" target="_blank" class="footer-link__icon"><i class="bi bi-github"></i></a>
                 <a href="https://www.linkedin.com/in/rodiyz/" target="_blank" class="footer-link__icon"><i class="bi bi-linkedin"></i></a>
@@ -49,7 +60,7 @@
               </div>
             </div>
           </div>
-          <div class="col-7 px-4">
+          <div class="contact-form col-7 px-4">
             <form class="" action="" method="post">
               <div class="d-flex gap-4">
                 <div class="mb-3">
@@ -72,8 +83,14 @@
       </div>
     </section>
     <footer id="footer" class="footer">
-      <div class="container py-4">
+      <div class="container py-mx-4">
         <div class="text-center">
+          <div class="footer-mobile flex gap-4 mb-mx-6 justify-center">
+            <a href="https://github.com/Rodiyz" target="_blank" class="footer-link__icon"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/rodiyz/" target="_blank" class="footer-link__icon"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/Rodiyz" target="_blank" class="footer-link__icon"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/rodiyz/" target="_blank" class="footer-link__icon"><i class="bi bi-instagram"></i></a>
+          </div>
           <div class="footer-copy">
             <p>&copy Malinkin Maxim <spam class="footer-copy__date" id="footer-copy__date">0</spam></p>
           </div>
