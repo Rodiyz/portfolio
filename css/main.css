@@ -169,23 +169,51 @@ a:hover {
 }
 
 .works-btn {
+  color: #fff;
   background-color: #404041;
   border-color: #404041;
   padding: 0.5rem 1.5rem;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .works-btn:hover {
+  color: #fff;
   background-color: #212529;
   border-color: #212529;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.works-btn:focus {
+  -webkit-transition: none;
+  transition: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .works-btn-git {
+  color: #fff;
   background-color: #404041;
   border-color: #404041;
   padding: 0.5rem 1.2rem;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .works-btn-git:hover {
+  color: #fff;
   background-color: #212529;
   border-color: #212529;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.works-btn-git:focus {
+  -webkit-transition: none;
+  transition: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .contact-form {

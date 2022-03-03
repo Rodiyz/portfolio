@@ -175,22 +175,40 @@ a {
 }
 
 .works-btn {
+  color: #fff;
   background-color: #404041;
   border-color: #404041;
   padding: 0.5rem 1.5rem;
+  transition: none;
+  box-shadow: none;
   &:hover {
+    color: #fff;
     background-color: #212529;
     border-color: #212529;
+    box-shadow: none;
+  }
+  &:focus {
+    transition: none;
+    box-shadow: none;
   }
 }
 
 .works-btn-git {
+  color: #fff;
   background-color: #404041;
   border-color: #404041;
   padding: 0.5rem 1.2rem;
+  transition: none;
+  box-shadow: none;
   &:hover {
+    color: #fff;
     background-color: #212529;
     border-color: #212529;
+    box-shadow: none;
+  }
+  &:focus {
+    transition: none;
+    box-shadow: none;
   }
 }
 
