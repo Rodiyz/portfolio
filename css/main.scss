@@ -338,6 +338,18 @@ a {
   }
 
 
+  //works
+
+  .works-container {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .works-card {
+    max-width: 100%;
+  }
+
+
   //contact
 
   .contact-form {
